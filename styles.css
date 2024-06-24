@@ -1,0 +1,608 @@
+body{
+    font-family: "League Gothic", sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    width: 100%;
+    height: 56px;
+}
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: #FFF;
+    z-index: 100;
+    margin-bottom: 0px;
+}
+header nav ul {
+display: flex;
+max-width: 740px;
+width: 100%;
+justify-content: space-around;
+list-style-type: none;
+margin-bottom: 0px;
+flex-wrap: nowrap;
+}
+header nav ul li{
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 400;
+    padding-bottom: 11px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #432638;
+}
+nav ul li a.active {
+    border-bottom: 4px solid #18C0DB;
+  }
+
+.container-inicio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    height: 567px;
+    max-width: 1440px;
+    background: url(imagens/barbie-banner-rj.svg);
+}
+.container-accountant{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+.accountant{
+    width: 30%;
+    text-align: center;
+    margin: 63px 0px 83px 0px;
+}
+.accountant h4{
+font-size: 30px;
+font-weight: 400;
+color: #432638;
+margin: 0px 0px 32px 0px;
+}
+.countdown{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+#days, #hours, #minutes, #seconds{
+    font-size: 56px;
+    font-family: "Montserrat", sans-serif;
+    color: #FE3CB7;
+    font-weight: 600;
+}
+.countdown-date{
+    font-size: 20px;
+    font-family: "League Gothic", sans-serif;
+    color: #18C0DB;
+    margin: 16px 0px;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+.container-encontro{
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    width: 100%;
+}
+.container-encontro__wrapper{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    max-height: 600px;
+}
+.wrapper-encontro{
+    flex-basis: 60%;
+    max-width: 720px;
+    max-height: 600px;
+    padding: 68px 64px 0px 119px;
+    background-color:#E5EAEB ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.wrapper-encontro h1{
+    font-size: 80px;    
+    margin: 0;
+    text-align: left;
+    color: white;
+    line-height: 70px;
+    display: inline-block;
+    text-shadow: 
+    2px 2px 0 #FE3CB7, 
+    2px -2px 0 #FE3CB7, 
+    -2px 2px 0 #FE3CB7, 
+    -2px -2px 0 #FE3CB7, 
+    2px 0px 0 #FE3CB7, 
+    0px 2px 0 #FE3CB7, 
+    -2px 0px 0 #FE3CB7, 
+    0px -2px 0 #FE3CB7, 
+    6px 6px 2px #FE3CB7;}
+.wrapper-encontro p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    margin: 24px 0px 4px 0px;
+    width: 85%;
+    line-height: 28px;
+}
+.wrapper-encontro strong{
+    color: #432638;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    margin: 0px 0px 24px 0px;
+}
+.wrapper-encontro a{
+    margin: 32px 0px 0px 0px;
+    height: 60px;
+    max-width: 190px;
+    font-size: 30px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FE3CB7;
+    box-shadow: 4px 4px 0px 0px #18C0DB;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+.container-percurso{
+    margin: 85px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.wrapper-percurso{
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0px 120px;
+}
+.info-percurso{
+    font-family: "Inter", sans-serif;
+    margin: auto auto auto 64px;
+    flex-basis: 35%;
+    color: #432638;
+    font-size: 16px;
+}
+.mapa-percurso img{
+    max-width: 600px;
+}
+.mapa-percurso #mapa-img{
+    border: 4px solid #FE3CB7;
+    box-shadow: 8px 8px 0px 0px #FE3CB7;
+    border-radius: 24px;
+
+}
+.button-percurso{
+    margin: 32px 0px 0px 0px;
+    display: flex;
+}
+.button-percurso-3k, .button-percurso-5k{
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #432638;
+    margin: 0px 12px 0px 12px;
+    box-shadow: 4px 4px 0px 0px #18C0DB;
+    color: #FFF;
+    font-family: League Gothic;
+    font-size: 32px;
+    cursor: pointer;
+}
+.button-percurso-5k{
+    background-color: #FE3CB7;
+}
+.itens-kit{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.image-kit{
+    z-index: 1;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+.image-kit img{
+    width: 80%;
+    max-width: 600px;
+}
+.style-barbie{
+    box-shadow: 8px 8px 0px 0px #18C0DB;
+    border-radius: 24px;
+}
+.wrapper-kit{
+    max-width: 1200px;
+    width: 100%;
+    background-color: #FE3CB7;
+    padding: 80px 120px;
+    display: flex;    
+    position: relative;
+}
+.info-kit{
+    font-family: "Inter", sans-serif;
+    margin: auto auto auto 64px;
+    flex-basis: 35%;
+    color: #FFF;
+}
+.button-kit{
+    margin: 32px 0px 0px 0px;
+    display: flex;
+}
+.button-kit-vip, .button-kit-barbie{
+    width: 160px;
+    font-family: League Gothic;
+    height: 64px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#FE3CB7;
+    font-size: 30px;
+    box-shadow: 4px 4px 0px 0px #18C0DB;
+    background-color: #FFF;
+    margin: 0px 12px 0px 12px;
+    cursor: pointer;
+}
+.button-kit-select{
+    background-color: #FFF200;
+}
+.background-kit{
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+}
+.container-regulamento{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.wrapper-regulamento{
+    max-width: 1200px;
+    width: 100%;
+    margin: 114px 0px 64px 0px;
+}
+.title-regulamento{
+    width: 100%;
+    border-radius: 24px 24px 0px 0px;
+    background-color: #FE3CB7;
+    position: relative;
+    height: 56px;
+}
+.title-regulamento h1{
+    margin: 0;
+    position: absolute;
+    top: -55px;
+    left: 40px;
+    font-size: 80px;
+}
+.texto-regulamento{
+    padding: 40px;
+    color: #432638;
+    font-family: "Inter", sans-serif;
+    background-color: #E5EAEB;
+    border-radius: 0px 0px 24px 24px;
+}
+.texto-regulamento p{
+    margin-top: 0;
+}
+.content-regulamento{
+    overflow-y: scroll;
+    height: 300px;
+    padding-right: 16px;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #C3CED0;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FE3CB7;
+    border-radius: 8px;
+}
+.fale-conosco{
+    padding: 0px 0px 60px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.wrapper-fale-conosco{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    color: #FFF;
+}
+.title-fale-conosco{
+    width: 50%;
+    background-color: #FE3CB7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px 0px 0px 24px;
+    position: relative;
+}
+.title-fale-conosco p{
+    max-width: 456px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+.background-fale-conosco{
+    position: absolute;
+    transform: rotate(270deg);
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.wrapper-form{
+    width: calc(50% - 112px);
+    padding: 60px 56px;
+    background-color: #00C2DE;
+    border-radius: 0px 24px 24px 0px;
+}
+.wrapper-form form{
+    width: 100%;
+}
+.wrapper-form form div{
+    display: flex;
+    flex-direction: column;
+    
+}
+.wrapper-form form input{
+    width: 100%;
+    height: 56px;
+    border-radius: 8px;
+    border: none;
+}
+.wrapper-form form label{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    margin: 16px 0px 4px 0px;
+    font-weight: 700;
+}
+.wrapper-form form button{
+    margin: 26px 0px 0px 0px;
+    color: #FE3CB7;
+    width: 223px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    border: none;
+    font-family: League Gothic;
+    font-size: 30px;
+    box-shadow: 4px 4px 0px 0px #1796AA;
+}
+footer{
+    width: 100%;
+    padding: 80px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.wrapper-footer{
+    width: 100%;
+    max-width: 1440px;
+    background-color: #FE3CB7;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+}
+.wrapper-footer p{
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.wrapper-footer .btn-whats{
+    margin: 32px auto auto auto;
+    width: 223px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #FE3CB7;
+    background-color: #FFF;
+    border-radius: 100px;
+    box-shadow: 4px 4px 0px 0px #1796AA;
+    font-family: League Gothic;
+    font-size: 30px;
+    cursor: pointer;
+}
+.copy-ticket{
+    margin: 80px 0px 0px 0px;
+    padding: 18px 0px;
+    background-color: #DE299C;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+.copy-ticket a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #FFF;
+}
+@media (max-width: 768px){
+    nav ul{
+        overflow-x: scroll;
+        padding: 0px 10px;
+    }
+    nav ul::-webkit-scrollbar {
+        height: 2px;
+    }
+    nav ul li div{
+        width: 110px;
+    }
+    ul li div:first-child{
+        text-align: left;
+    }
+    .menu-style{
+        width: 50px;
+    }
+    .menu-style-1{
+        width: 70px;
+    }
+    .menu-style-2{
+        width: 90px;
+        margin-left: 5px;
+    }
+    .container-inicio{
+        background: url(imagens/Testeira-SP-mobile.jpg);
+        width: 100%;
+        max-width: 768px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .accountant{
+        width: 100%;
+    }
+    .wrapper-encontro{
+        flex-basis: 100%;
+        padding: 68px 10px 30px 10px;
+    }
+    .container-encontro__wrapper{
+        flex-wrap: wrap;
+        height: max-content;
+        max-height: max-content;
+    }
+    .container-encontro__wrapper img{
+        width: 100%;
+    }
+    .wrapper-percurso{
+        flex-wrap: wrap;
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+    .info-percurso{
+        margin: 0;
+        padding: 0px 10px 30px 10px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .button-percurso{
+        justify-content: center;
+    }
+    .mapa-percurso{
+        width: 100%;
+    }
+    .mapa-percurso div{
+        width: fit-content;
+    }
+    .mapa-percurso img{
+        width: 80%;
+        display: flex;
+        margin: auto;
+    }
+    .wrapper-kit{
+        flex-wrap: wrap;
+        padding: 40px 0px;
+        justify-content: center;
+    }
+    .info-kit{
+        z-index: 10;
+        flex-basis: 100%;
+        margin: auto 15px auto 15px;
+    }
+    .image-kit{
+        z-index: 1;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .image-kit img{
+        width: 80%;
+        display: flex;
+        margin: auto;    
+        max-width: 450px;
+}
+.button-kit{
+    justify-content: center;
+}
+.texto-regulamento{
+    padding: 10px;
+}
+    .wrapper-fale-conosco{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .background-fale-conosco{
+        display: none;
+    }
+    .title-fale-conosco{
+        width: 100%;
+        border-radius: 0;
+    }
+    .wrapper-form{
+        width: calc(100% - 112px);
+        border-radius: 0;
+    }
+    .wrapper-form form button{
+        margin: 26px auto auto auto;
+    }
+    .fale-conosco, footer{
+        padding: 0;
+    }
+    .copy-ticket{
+        padding: 18px 10px;
+    }
+}
+@media (max-width: 425px){
+    .container-inicio{
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 330px;
+    }
+    .button-kit{
+        flex-wrap: wrap;
+    }
+    .button-kit-vip, .button-kit-barbie{
+        margin-bottom: 8px;
+    }
+    .title-regulamento h1{
+        font-size: 60px;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        top: -40px;
+        left: 0;
+        }
+        .title-fale-conosco{
+            text-align: center;
+            padding: 0px 10px;
+        }
+        .wrapper-form{
+            width: 100%;
+            padding: 30px 25px;
+        }
+}

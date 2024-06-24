@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barbie</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav>
+          <ul>
+            <li data-target="inicio">
+              <div class="menu-style">
+                <a href="#inicio">INÍCIO</a>
+              </div>
+            </li>            
+            <li data-target="sobre-evento">
+              <div>
+                <a href="#sobre-evento">SOBRE O EVENTO</a>
+              </div>
+            </li>  
+            <li data-target="percurso">
+              <div class="menu-style-1">
+                <a href="#percurso">PERCURSO</a>
+              </div>
+            </li>    
+           <li data-target="sobre-kit">
+              <div class="menu-style-1">
+                <a href="#sobre-kit">SOBRE O KIT</a>
+              </div>
+            </li>          
+            <li data-target="regulamento">
+              <div class="menu-style-2">
+                <a href="#regulamento">REGULAMENTO</a>
+              </div>
+            </li>          
+            <li data-target="fale-conosco">
+              <div class="menu-style-2">
+                <a href="#fale-conosco">FALE CONOSCO</a>
+              </div>
+            </li>                    
+            <li data-target="faq">
+              <a href="#faq">FAQ</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section id="inicio" class="container-inicio"></section>
+      <section id="inicio" class="container-accountant">
+        <div class="accountant">
+          <h4>NOSSO ENCONTRO COMEÇA EM:</h4>
+          <div class="countdown">
+            <div class="style-countdown">
+              <div id="days"></div>
+              <p class="countdown-date">Dias</p>
+            </div>
+            <strong>.</strong>
+            <div class="style-countdown">
+              <div id="hours"></div>
+              <p class="countdown-date">Horas</p>
+            </div>
+            <strong>.</strong>
+            <div class="style-countdown">
+              <div id="minutes"></div>
+              <p class="countdown-date">Minutos</p>
+            </div>
+            <strong>.</strong>
+            <div class="style-countdown">
+              <div id="seconds"></div>
+              <p class="countdown-date">Segundos</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="sobre-evento"  class="container-encontro">
+        <div class="container-encontro__wrapper">
+          <div class="wrapper-encontro">
+            <h1>BARBIE RUN 2024</h1>
+            <p>
+              De Malibu à São Paulo, unindo a vibe da Califórnia à do Brasil! Bem-vindos à Barbie Run!
+              Pela primeira vez, a boneca mais famosa do mundo chega ao Brasil para um momento histórico, 
+              colorindo São Paulo em cor-de-rosa!
+              Venha fazer parte desse movimento! Juntos é o melhor lugar para estar!
+
+            </p>
+            <strong>SOMOS BARBIE!</strong>
+            <a href="https://site.ticketsports.com.br/Inscricao/Categoria.aspx?__idEvento=49105&lang=pt-BR">INSCREVA-SE </a>
+          </div>
+          <div>
+            <img src="imagens/barbie-encontro.svg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section id="percurso" class="container-percurso">
+        <div class="wrapper-percurso">
+          <div class="mapa-percurso">
+            <div>
+              <img id="mapa-img" src="imagens/percurso-3km-SP.jpg" alt="" />
+            </div>
+          </div>
+          <div class="info-percurso">
+            <h1>Conheça os percursos</h1>
+            <p>
+              A corrida oficial da boneca mais famosa do mundo chega ao Brasil
+              com duas opções de distâncias, para você se divertir e se
+              desafiar!
+            </p>
+            <p>
+              <strong>Caminhada de 3k</strong>: para fazer parte e se divertir
+              com tudo que só Barbie pode oferecer!
+            </p>
+            <strong>Corrida de 5k:</strong> ideal para mostrar do que é capaz!
+            <div class="button-percurso">
+              <div class="button-percurso-3k">3K</div>
+              <div class="button-percurso-5k">5K</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="sobre-kit" class="itens-kit">
+        <div class="wrapper-kit">
+          <div class="info-kit">
+            <h1>Itens do Kit</h1>
+            <p>
+              KIT VIP: 01 Camiseta, 01 Sacochila, 01 Par de meia, 01 Garrafa e
+              01 Viseira e medalha para aqueles que completarem a prova.
+            </p>
+            <p>
+              KIT BARBIE: 01 Camiseta, 01 Sacochila e medalha para aqueles que
+              completarem a prova.
+            </p>
+            <div class="button-kit">
+              <div class="button-kit-vip">KIT VIP</div>
+              <div class="button-kit-barbie button-kit-select">KIT BARBIE</div>
+            </div>
+          </div>
+          <div class="image-kit">
+            <img class="style-barbie" id="kit-img" src="imagens/kit-barbie.jpeg" alt="" />
+          </div>
+          <div class="background-kit">
+            <img src="imagens/background-kit.svg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section id="regulamento" class="container-regulamento">
+        <div class="wrapper-regulamento">
+          <div class="title-regulamento">
+            <h1>Regulamento</h1>
+          </div>
+          <div class="texto-regulamento">
+            <div class="content-regulamento">
+              <h1><strong>Regulamento - Corrida Barbie Run</strong></h1>
+
+              <p><strong>1. MODALIDADES</strong></p>
+              <p><strong>1.1.</strong> Modalidade de caminhada de 3k: Feminino e Masculino;</p>
+              <p><strong>1.2.</strong> Modalidade de corrida de 5k: Feminino e Masculino;</p>
+              <p><strong>1.3.</strong> Cada Atleta só poderá estar inscrito em uma modalidade;</p>
+              <p><strong>1.4.</strong> As distâncias poderão sofrer alterações por motivos de força maior.</p>
+      
+              <p><strong>2. DATA E LOCAL DE PROVA</strong></p>
+              <p><strong>2.1.</strong> A prova será realizada no domingo, dia 08 de Setembro de 2024;</p>
+              <p><strong>2.2.</strong> A largada e a chegada da prova serão feitas na Avenida Atlântica, na orla da Praia de Copacabana.</p>
+              
+              <p><strong>3. INSCRIÇÕES</strong></p>
+              <p><strong>3.1.</strong> As inscrições poderão ser feitas até o dia 31 de Agosto de 2024;</p>
+              <p><strong>3.2.</strong> Taxa de inscrição: R$ 50,00 (cinquenta reais) até o dia 15 de Agosto; R$ 70,00 (setenta reais) após essa data.</p>
+              
+              <p><strong>4. PREMIAÇÃO</strong></p>
+              <p><strong>4.1.</strong> Troféus para os primeiros colocados de cada categoria;</p>
+              <p><strong>4.2.</strong> Medalhas de participação para todos os inscritos que completarem o percurso.</p>
+              
+              <p><strong>5. KIT DO ATLETA</strong></p>
+              <p><strong>5.1.</strong> O kit do atleta incluirá camiseta, número de peito e brindes;</p>
+              <p><strong>5.2.</strong> A retirada do kit será no dia anterior à prova, na Praça de Eventos do Shopping Barbie Dream, das 10h às 18h.</p>
+              
+              <p><strong>6. REGRAS GERAIS</strong></p>
+              <p><strong>6.1.</strong> É obrigatório o uso do número de peito durante toda a prova;</p>
+              <p><strong>6.2.</strong> O atleta deverá estar presente no local de largada com pelo menos 30 minutos de antecedência;</p>
+              <p><strong>6.3.</strong> É terminantemente proibido o uso de patins, skate, bicicleta ou qualquer meio de locomoção não autorizado;</p>
+              <p><strong>6.4.</strong> A segurança da prova contará com o apoio de profissionais qualificados.</p>
+              
+              <p><strong>7. DISPOSIÇÕES FINAIS</strong></p>
+              <p><strong>7.1.</strong> Os casos omissos neste regulamento serão decididos pela comissão organizadora;</p>
+              <p><strong>7.2.</strong> Ao realizar a inscrição, o participante declara estar em perfeitas condições de saúde para participar do evento.</p>
+              <p><strong>7.3. As ruas usadas para a competição estarão preferencialmente fechadas para o tráfego motorizado em todas as direções, sendo providenciadas sinalizações e cavaletes para a orientação dos Atletas. Os órgãos de trânsito da cidade determinarão eventuais trechos que necessitem de compartilhamento do evento com o trânsito motorizado local.</strong></p>
+
+<p><strong>8. PENALIDADES</strong></p>
+
+<p>8.1. Todos os Atletas deverão ter o seu número de identificação visível durante todo o evento, sob pena de desclassificação. A cada Atleta será fornecido um número que deve ser usado visivelmente no peito durante o Evento, sem rasura ou alterações, sendo desclassificado quem descumprir esta obrigação;</p>
+
+<p>8.2. O Atleta será desclassificado da prova nos casos:</p>
+
+<ul>
+    <li>ser transportado ou beneficiado por qualquer tipo de veículo;</li>
+    <li>cortar o caminho original da prova ou se beneficiar indevidamente por atalhos;</li>
+    <li>receber auxílio de terceiros (assessores, personal trainer, acompanhantes ou ciclista);</li>
+    <li>utilizar recursos tecnológicos que importe em vantagem competitiva;</li>
+    <li>atitudes anti desportivas, como desrespeito aos árbitros e staffs;</li>
+    <li>qualquer atitude racista, homofóbica ou misógina durante o evento.</li>
+</ul>
+
+<p>8.3. O Atleta deve retirar-se imediatamente do Evento se assim for determinado por um membro da arbitragem e ou da equipe médica oficial; O Atleta desclassificado não terá o seu tempo divulgado no site e não poderá permanecer no recinto de realização do Evento.</p>
+
+<p><strong>9. CRONOMETRAGEM</strong></p>
+
+<p>9.1. O sistema de cronometragem utilizado será via leitura de chip;</p>
+
+<p>9.2. O chip é pessoal e seu uso é obrigatório e intransferível. O Atleta deverá utilizá-lo durante todo o percurso do Evento e livre de interferência direta de outros aparelhos eletrônicos. A utilização inadequada do chip pelo Atleta acarretará a não marcação do seu tempo, isentando-se, então, a Organizadora e parceiros, da divulgação do tempo e classificação deste Atleta;</p>
+
+<p>9.3. Não serão considerados os tempos individuais registrados pelos próprios Atletas em nenhuma hipótese;</p>
+
+<p>9.4. Poderá haver pontos de controle distintos de medição do tempo dos Atletas, devendo os Atletas ficarem atentos para cruzarem a linha de largada e de chegada (tapetes de cronometragem) dos respectivos percursos escolhidos;</p>
+
+<p>9.5. O Atleta deverá conferir no site oficial do Evento, a data, horário e local para realizar a retirada do chip de cronometragem (mesma data da retirada dos kits);</p>
+
+<p>9.6. Não é necessário a devolução do chip de cronometragem após o término da prova.</p>
+
+<p>9.7. Os resultados das corridas serão disponibilizados após a prova. A empresa de cronometragem contratada poderá disponibilizá-los em um prazo de até 24h ao final do evento.</p>
+
+<p>9.8. Em casos de condições climáticas extremas ou situações adversas o sistema de cronometragem poderá ser inutilizável, sem a devida aferição ao longo do Evento.</p>
+
+<p><strong>10. RESULTADO</strong></p>
+
+<p>10.1. A prova será vencida pelo competidor com o menor tempo entre o sinal de início e o término da prova pelo Atleta;</p>
+
+<p>10.2. O tempo limite (corte) da prova é estabelecido em duas horas após a largada dos participantes da distância 6 km;</p>
+
+<p>10.3 O resultado oficial será disponibilizado no site <a href="www.chronomax.com.br">www.chronomax.com.br</a></p>
+
+<p><strong>11. SEGURO</strong></p>
+
+<p>11.1. Todo Atleta inscrito na prova estará “segurado” a partir do momento da largada até o fim de sua participação na competição. A organização não se responsabiliza por qualquer problema que o Atleta possa ter antes ou depois da prova.</p>
+
+<p>11.2. A seguradora cobrirá despesas médico-hospitalares em até R$5.000,00. Despesas acima deste valor serão de responsabilidade do Atleta. Em cumprimento às normas da Federação Paulista de Atletismo, será disponibilizado serviço de ambulância UTI para atendimento emergencial aos Atletas e para remoção destes para hospitais da rede pública de saúde caso necessário.</p>
+
+<p>11.3. O Atleta ou seu acompanhante poderá decidir pela remoção ou transferência para hospitais da rede privada de saúde, eximindo a comissão organizadora de qualquer responsabilidade ou reembolso pelas despesas decorrentes deste atendimento médico.</p>
+
+<p><strong>12. DIVULGAÇÃO E USO DE IMAGEM</strong></p>
+
+<p>12.1. O Atleta que se inscrever e/ou participar deste evento está, incondicionalmente, aceitando e concordando em ter sua imagem divulgada através de fotos, filmes, jornais, revistas, internet, televisão ou qualquer outro meio de comunicação, para usos informativo, promocional ou publicitário relativos à competição, sem acarretar nenhum ônus aos organizadores, e renunciando ao recebimento de qualquer renda que venha a ser auferida com tais direitos, aos patrocinadores ou meios de comunicação, em qualquer tempo/data;</p>
+
+<p>12.2. Todos os participantes do evento - Atletas, staffs, organizadores e público em geral, cedem todos os direitos de utilização de sua imagem para a empresa organizadora;</p>
+
+<p>12.3. Filmagem, transmissão pela televisão, fotografias ou vídeo relativos à prova/competição têm os direitos reservados aos organizadores.</p>
+
+<p><strong>13. CONDIÇÕES FÍSICAS DOS ATLETAS E SERVIÇOS DE APOIO</strong></p>
+
+<p>13.1. Todos os Atletas deverão estar em dia com rigorosa avaliação médica para participação no Evento, sendo conhecedores de seu estado de saúde e de sua aptidão física para participar do Evento. A Organizadora não se responsabilizará pela saúde física dos Atletas.</p>
+
+<p>13.2. O Atleta é responsável pela decisão de participar do Evento, avaliando sua condição física, desempenho e julgando por si só se deve ou não permanecer na competição;</p>
+
+<p>13.3. A Comissão Organizadora poderá, seguindo recomendação do médico responsável pelo Evento, sugerir que o(a) Atleta interrompa ou não participe do Evento;</p>
+
+<p>13.4. A Organizadora não tem responsabilidade sobre o atendimento médico dos Atletas, despesas médicas, em casos de internação ou lesões geradas pela participação no Evento. Porém, será disponibilizado um serviço de ambulância UTI para atendimento emergencial aos Atletas e para a remoção destes aos hospitais da rede pública de saúde;</p>
+
+<p>13.5. Serão colocados à disposição dos Atletas, banheiros químicos femininos e masculinos, bem como guarda-volumes para depósito de bens fungíveis e de baixo valor;</p>
+
+<p>13.6. Ao longo do percurso haverá postos de hidratação.</p>
+
+<p><strong>14. ALTERAÇÃO DE DATA, HORÁRIO E LOCAL DO EVENTO E/OU CANCELAMENTO</strong></p>
+
+<p><strong>14.1.</strong> A Organizadora poderá alterar a data e o horário do Evento, seja para antecipar ou postergar data e horário inicialmente informados. Igualmente, a Organizadora poderá alterar o local do Evento previamente autorizado;</p>
+
+<p><strong>14.1.1</strong> Não se enquadram nesse capítulo alteração decorrentes de determinação</p>
+
+<p><strong>14.2.</strong> A informação de alteração na data, horário e local do Evento será divulgada no site oficial e comunicada aos inscritos por e-mail;</p>
+
+<p><strong>14.3.</strong> Na hipótese de alteração na data e/ou no local do Evento, os Atletas terão o prazo de 07 (sete) dias corridos para solicitar a devolução do valor pago pela inscrição, contados da data do e-mail de divulgação de nova data. A ausência de manifestação do Atleta dentro desse prazo implicará em concordância com a nova data e/ou local;</p>
+
+<p><strong>14.4.</strong> Os Atletas que realizarem o pagamento da inscrição via cartão de crédito receberão os valores pagos pela inscrição via estorno (cancelamento da venda e estorno do valor ao titular do cartão de crédito);</p>
+
+<p><strong>14.5.</strong> Os Atletas que realizarem o pagamento da inscrição via boleto bancário deverão entrar em contato com a Organizadora para indicar os dados bancários e serem reembolsados dos valores pagos pela inscrição em prazo a ser informado na ocasião do contrato.</p>
+
+<p><strong>14.6.</strong> Na hipótese de alteração somente no horário do Evento não haverá devolução do valor pago pela inscrição aos Atletas.</p>
+
+<p><strong>14.7.</strong> A Organizadora poderá ser obrigada a alterar a data, local e o horário do Evento, seja para antecipar ou postergar, que foram inicialmente informados, por determinação do poder público;</p>
+
+<p><strong>14.8.</strong> A informação de alteração na data, horário e local do Evento será divulgada no site oficial e comunicada aos inscritos por e-mail.</p>
+
+<p><strong>14.9.</strong> Os Atletas inscritos terão, nessa hipótese, suas inscrições automaticamente transferidas para nova data, horário e local.</p>
+
+<p><strong>14.10.</strong> A Organizadora, primando pela segurança e incolumidade física dos Atletas, poderá interromper o Evento, iniciado ou em vias de iniciar, por questões de segurança pública, determinação do Poder Público e/ou motivos de força maior;</p>
+
+<p><strong>14.11.</strong> Para fins de aplicação das regras previstas nesta seção, considera-se “Interrupção do Evento” aquele em que foi realizada a entrega dos kits, a organização disponibilizou a estrutura para execução do Evento, mas que não foi finalizado, ou ainda, nos casos em que a estrutura não tenha sido disponibilizada por determinação do poder público, em especial por questões de segurança pública;</p>
+
+<p><strong>14.12.</strong> Na hipótese de “Interrupção do Evento” não haverá devolução do valor da inscrição aos Atletas e o Evento será, para todos os efeitos, considerado realizado;</p>
+
+<p><strong>14.13.</strong> Os Atletas ficam cientes que deverão assumir, no ato da inscrição, todos os riscos e danos da eventual “Interrupção do Evento” (iniciado ou em vias de iniciar) por questões de segurança pública, determinação do Poder Público e/ou motivos de força maior, não gerando qualquer responsabilidade para a Organizadora.</p>
+
+<p><strong>14.14.</strong> A Organizadora poderá cancelar a realização do Evento por seu exclusivo critério ou por determinação do Poder Público;</p>
+
+<p><strong>14.15.</strong> Para fins de aplicação das regras previstas nesta seção, considera-se “Cancelamento do Evento” aquele em que os Atletas não receberam os kits e/ou a Organizadora não disponibilizou a estrutura para execução do Evento;</p>
+
+<p><strong>14.16.</strong> A informação de “Cancelamento do Evento” será divulgada no site oficial e comunicada aos inscritos por e-mail;</p>
+
+<p><strong>14.17.</strong> Na hipótese de “Cancelamento do Evento” a Organizadora disponibilizará crédito aos Atletas referente ao valor pago pela inscrição a ser utilizado em um próximo evento realizado pela organizadora;</p>
+
+<p><strong>14.18.</strong> Os Atletas que realizarem o pagamento da inscrição via cartão de crédito e débito receberão os valores pagos pela inscrição via estorno (cancelamento da venda e estorno do valor ao titular do cartão de crédito). Os Atletas que realizaram o pagamento da inscrição via boleto bancário deverão entrar em contato com a Organizadora para indicar os dados bancários e serem reembolsados dos valores pagos pela inscrição.</p>
+
+<p><strong>15. DISPOSIÇÕES GERAIS</strong></p>
+
+<p><strong>15.1.</strong> Os protestos e reclamações relativos ao resultado esportivo do Evento deverão ser feitos por escrito e no prazo máximo de 24 horas após a divulgação oficial para o endereço de e-mail contato@vegasports.com.br;</p>
+
+<p><strong>15.2.</strong> O inscrito entende que todo material necessário para sua participação no evento são de sua inteira responsabilidade, tanto em obtê-los, como em sua guarda e zelo. Aceita não portar e utilizar, dentro das áreas do Evento, nenhum material político, promocional ou publicitário, sem autorização por escrito da organização.</p>
+
+<p><strong>15.3.</strong> Não haverá reembolso, por parte da Organizadora, patrocinadores e parceiros, de nenhum valor correspondente a danos aos equipamentos e/ou acessórios utilizados pelos Atletas no Evento, independentemente do motivo, tampouco, por qualquer extravio de materiais ou prejuízo que porventura os Atletas ou terceiros venham a sofrer durante a participação no Evento;</p>
+
+<p><strong>15.4.</strong> Os custos de transporte, hospedagem, alimentação, treinamentos, seguros ou quaisquer outras despesas necessárias para a participação do(a) Atleta, antes, durante e depois do Evento serão de responsabilidade exclusiva do(a) Atleta, inclusive nas hipóteses previstas no artigo 15 deste Regulamento;</p>
+
+<p><strong>15.5.</strong> A Organizadora poderá, a qualquer momento, prorrogar ou antecipar a data para inscrição ou, ainda, elevar ou limitar o número de inscrições, em função de disponibilidade técnica e/ou questões estruturais, sem aviso prévio;</p>
+
+<p><strong>15.6.</strong> Os Atletas são responsáveis pela veracidade das informações fornecidas no sistema on-line ou na ficha de inscrição;</p>
+
+<p><strong>15.7.</strong> A Organizadora poderá, a seu critério ou conforme as necessidades do Evento, alterar ou revogar este Regulamento, total ou parcialmente, informando as mudanças no site oficial do Evento;</p>
+
+<p><strong>15.8.</strong> As dúvidas ou omissões deste Regulamento serão dirimidas pela Organizadora e/ou Comissão Organizadora do Evento de forma soberana, não cabendo recursos a essas decisões.</p>
+
+<p><strong>ANEXO I: TERMO DE RESPONSABILIDADE</strong></p>
+
+<p>Eu, “identificado no cadastramento da inscrição”, no perfeito uso de minhas faculdades, DECLARO para os devidos fins de direito que:</p>
+
+<p>Estou ciente de que se trata de uma “Corrida de Rua” cujo percurso é de meu conhecimento. Estou em plenas condições físicas e psicológicas de participar deste Evento e estou ciente que não existe nenhuma recomendação médica que me impeça de praticar atividades físicas. Não apresento, nem apresentei, nos últimos 15 (quinze) dias, qualquer sintoma gripal ou compatível com a COVID-19, tampouco encontrei ou convivi com qualquer pessoa sintomática ou que tenha testado positivo para a COVID-19.</p>
+
+<p>Li, conheço, aceito e submeto-me integralmente a todos os termos do Regulamento do Evento. Declaro que não portarei, nem utilizarei, no percurso e no entorno, bem como no local de entrega de kits, nenhum material publicitário, promocional ou político, sem a devida autorização por escrito da Organizadora; e, também, de qualquer material ou objeto que ponha em risco a segurança dos participantes.</p>
+
+<p>Estou ciente das penalidades e possível desclassificação que posso sofrer caso descumpra o Regulamento ou cometa atitude anti desportiva. Excluo meu direito de reclamação sobre tais aspectos do Evento.</p>
+
+<p>Autorizo o uso de minha imagem, para fins de divulgação do Evento, por fotos, vídeos e entrevistas em qualquer meio de comunicação, sem ônus para a Organizadora e patrocinadores. Estou ciente que na hipótese de alteração na data, horário e local do Evento, bem como interrupção e cancelamento do Evento, as eventuais despesas referentes à locomoção, preparação, estadia, viagem, entre outras serão suportados única e exclusivamente por mim, isentando a Organizadora e patrocinadores pelo ressarcimento de quaisquer destas despesas.</p>
+
+<p>Assumo todas as despesas de hospedagem, traslados, seguros, assistência médica e quaisquer outras despesas necessárias, ou provenientes da minha participação neste Evento; antes, durante ou depois da mesma.</p>
+
+<p>Compreendi e estou de acordo com todos os itens deste TERMO DE RESPONSABILIDADE</p>
+
+<p>5- FALE CONOSCO</p>
+
+<p>Em caso de dúvidas, entre em contato com nossa equipe.</p>
+
+<p>(Aqui, o fale conosco vai direcionar para contato@vegasports.com.br)</p>
+
+<p>6- OUTRAS DÚVIDAS?</p>
+
+<p>(Gostaria de deixar aqui igual no regulamento, com scroll, elencando as dúvidas e respostas uma abaixo da outra e retirar o botão de fale no whatsapp)</p>
+
+<p>-Como faço minha inscrição para a prova?</p>
+<p>Clique <a href="#">AQUI</a> para realizar sua inscrição.</p>
+
+<p>-Como inscrever minha assessoria, academia ou grupo?</p>
+<p>Você pode se inscrever diretamente pelo site dO Ticket Sports, escolhendo a opção INSCRIÇÃO GRUPOS/ASSESSORIAS. Em caso de dúvidas, entre em contato através do email grupos@vegasports.com.br ou pelo WhatsApp (11) 98884-6442.</p>
+
+<p>-Onde será realizada a prova?</p>
+<p>A largada e a chegada são previstas na orla da Praia de Copacabana, no Rio de Janeiro</p>
+
+<p>-Quais os horários de largada?</p>
+<p>Os horários serão amplamente divulgados em breve, pelas redes sociais, site e regulamento</p>
+
+<p>-Local de retirada de kits</p>
+<p>As informações sobre a retirada de kits serão amplamente divulgadas em breve, pelas redes sociais, site e regulamento</p>
+
+<p>-Documentação para retirada de kits</p>
+<p>Documentação necessária quando e a retirada é pelo Próprio Atleta:</p>
+<p>Documento original com foto (RG, CNH, passaporte ou similares);</p>
+<p>Protocolo de Inscrição em QR Code, recebido por e-mail no após a confirmação da inscrição. Caso o atleta não tenha recebido seu comprovante, este será disponibilizado no aplicativo ou site da Ticket Sports, na aba Meus Pedidos.</p>
+<p>Atleta menores de idade: entrega do Termo de Responsabilidade assinado (disponível na retirada de kit, ou na última página do nosso regulamento).</p>
+
+<p>Documentação necessária quando e a retirada é por terceiros:</p>
+<p>Documento de identidade original com foto do TERCEIRO e cópia simples do atleta;</p>
+<p>Protocolo de Inscrição em QR Code, recebido por e-mail no após a confirmação da inscrição. Caso o atleta não tenha recebido seu comprovante, este será disponibilizado no aplicativo ou site da Ticket Sports, na aba Meus Pedidos.</p>
+<p>Atleta menores de idade: entrega do Termo de Responsabilidade assinado (disponível na retirada de kit, ou na última página do nosso).</p>
+<p>A ausência de qualquer um dos documentos acima listados impedirá a retirada do kit e, consequentemente, a participação do atleta na competição.</p>
+
+<p>-Tenho mais de 60 anos, tenho desconto na inscrição?</p>
+<p>Idosos terão desconto de 50% sobre o valor não promocional da inscrição essencial. Esse valor de desconto não incide sobre preços promocionais.</p>
+
+<p>-Sou PCD, tenho desconto na inscrição?</p>
+<p>Para usufruir do desconto, os atletas PCDs devem enviar um e-mail para o endereço contato@vegasports.com.br com o laudo comprobatório para esta categoria e um documento com foto (CNH ou RG). A documentação será avaliada e, caso aprovada, o proponente receberá um cupom de desconto para a efetivação da compra.</p>
+<p>VAGAS LIMITADAS</p>
+
+<p>-Posso transferir minha inscrição para outra pessoa?</p>
+<p>Sim. Você pode enviar o nome completo e o CPF das duas pessoas através do email contato@vegasports.com.br ou através de mensagem direta em nosso Instagram @vegasportsbr até o dia 20/06/2024.</p>
+
+<p>-Quais são as categorias da premiação?</p>
+<p>Troféu para os cinco primeiros atletas colocados nas categorias GERAL masculina, feminina e PCD da corrida de 5km.</p>
+<p>Não haverá premiação em dinheiro, nem premiação para categoria por faixa etária.</p>
+<p>A distância de 3km por ser de caráter participativo, não terá premiação em troféu.</p>
+<p>Todos os atletas que completarem o percurso receberão medalhas.</p>
+
+<p>-Idade mínima</p>
+<p>De acordo com a determinação da Confederação Brasileira de Atletismo (VEJA AQUI) a idade mínima para o(a) Atleta se inscrever e participar de corridas de rua é a seguinte:</p>
+<p>(i) Corridas com percurso até 5km: 14 (catorze) anos;</p>
+<p>(ii) Corridas com percurso de 5km a 10km: 16 (dezesseis) anos;</p>
+<p>(iii) Corridas com percurso de 10km até 30km: 18 (dezoito) anos;</p>
+<p>A data base que serve como referência para a determinação da idade é 31/12/2024. Os atletas menores de 18 anos só poderão participar da corrida com a autorização por escrito do pai, mãe ou responsável legal.</p>
+
+<p>-Itens do kit</p>
+<p>KIT VIP: 01 Camiseta, 01 Sacochila, 01 Par de meia, 01 Garrafa e 01 Viseira e medalha para aqueles que completarem a prova</p>
+<p>KIT BARBIE: 01 Camiseta, 01 Sacochila e medalha para aqueles que completarem a prova</p>
+
+<p>-Cancelamento e reembolso</p>
+<p>De acordo com o código de defesa do consumidor, o atleta tem o prazo de 7 (sete) dias corridos após a data da compra para solicitar o cancelamento e estorno do valor de inscrição. O valor da inscrição não será devolvido depois dessa data. A solicitação deve ser feita por um dos canais de atendimento da organização, no e-mail contato@vegasports.com.br ou pelo WhatsApp (11) 91128-9302.</p>
+
+<p>-Até quando posso me inscrever?</p>
+<p>01/09/2024 ou enquanto houverem vagas</p>
+
+<p>-Resultados</p>
+<p>Os resultados finais serão disponibilizados após a prova. A organização poderá disponibilizá-los em um prazo de até 24h ao final do evento</p>
+
+<p>-Objetos Pessoais</p>
+<p>Teremos guarda-volumes na arena para os inscritos na prova.</p>
+
+<p>-Estacionamento</p>
+<p>Não teremos estacionamento oficial da prova. Recomendamos que os atletas usem transporte público ou aplicativos.</p>
+
+
+          </div>
+             
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="fale-conosco" class="fale-conosco">
+        <div class="wrapper-fale-conosco">
+          <div class="title-fale-conosco">
+            <h1>Fale Conosco</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+              laoreet metus, in volutpat odio. Nam lacus tellus, mollis vitae
+              augue eu, condimentum varius eros.
+            </p>
+            <div class="background-fale-conosco">
+              <img src="imagens/background-kit.svg" alt="" />
+            </div>
+          </div>
+          <div class="wrapper-form">
+            <form action="">
+              <div>
+                <label for="">NOME*</label>
+                <input type="text" name="" id="" />
+              </div>
+              <div>
+                <label for="">E-MAIL</label>
+                <input type="email" name="" id="" />
+              </div>
+              <div>
+                <label for="">TELEFONE</label>
+                <input type="tel" name="" id="" />
+              </div>
+              <div>
+                <label for="">MENSAGEM</label>
+                <input type="text" name="" id="" />
+              </div>
+              <button>ENVIAR MENSAGEM</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <footer id="faq">
+        <div class="wrapper-footer">
+          <h1>Outras dúvidas?</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+            laoreet metus, in volutpat odio. Nam lacus tellus, mollis vitae
+            augue eu, condimentum varius eros.
+          </p>
+          <a class="btn-whats">FALAR NO WHATSAPP</a>
+          <div class="copy-ticket">
+            © 2024 - TICKET AGORA SERVICOS DE RESERVAS, INTERMEDIAÇÃO E
+            AGENCIAMENTO LTDA. <a href="https://ticketsports.com.br/">VISITE NOSSO SITE</a>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const imgMapa = document.getElementById('mapa-img');
+      const button3k = document.querySelector('.button-percurso-3k');
+      const button5k = document.querySelector('.button-percurso-5k');
+
+      button3k.addEventListener('click', function() {
+        imgMapa.src = 'imagens/percurso-3km-SP.jpg';
+        imgMapa.alt = 'Mapa 3K';
+      });
+
+      button5k.addEventListener('click', function() {
+        imgMapa.src = 'imagens/percurso-5km-SP.jpg';
+        imgMapa.alt = 'Mapa 5K';
+      });
+    });
+    document.addEventListener("DOMContentLoaded", function() {
+      const imgtKit = document.getElementById('kit-img');
+      const buttonVip = document.querySelector('.button-kit-vip');
+      const buttonBarbie = document.querySelector('.button-kit-barbie');
+
+      buttonVip.addEventListener('click', function() {
+        imgtKit.src = 'imagens/kit-vip.jpeg';
+        imgtKit.alt = 'Imagem Kit VIP';
+        imgtKit.classList.add('style-barbie');
+        buttonVip.classList.add('button-kit-select');
+        buttonBarbie.classList.remove('button-kit-select');
+      });
+
+      buttonBarbie.addEventListener('click', function() {
+        imgtKit.src = 'imagens/kit-barbie.jpeg';
+        imgtKit.alt = 'Imagem Kit Barbie';
+        imgtKit.classList.add('style-barbie');
+        buttonBarbie.classList.add('button-kit-select');
+        buttonVip.classList.remove('button-kit-select');
+      });
+    });
+    function updateCountdown() {
+      const runningDate = new Date(2024, 8, 8, 10, 0, 0).getTime();
+      const currentDate = new Date();
+      const difference = runningDate - currentDate;
+
+      const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+      const hours = Math.floor(
+        (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
+      const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+      document.getElementById("days").innerHTML = days > 0 ? days : 0;
+      document.getElementById("hours").innerHTML = hours > 0 ? hours : 0;
+      document.getElementById("minutes").innerHTML = minutes > 0 ? minutes : 0;
+      document.getElementById("seconds").innerHTML = seconds > 0 ? seconds : 0;
+    }
+    setInterval(updateCountdown, 1000);
+    updateCountdown();
+    document.addEventListener('DOMContentLoaded', function() {
+  const menuItems = document.querySelectorAll('nav ul li a');
+  const sections = document.querySelectorAll('section');
+
+  function removeActiveClass() {
+    menuItems.forEach(item => item.classList.remove('active'));
+  }
+
+  function addActiveClass(target) {
+    const item = document.querySelector(`nav ul li a[href="#${target}"]`);
+    if (item) {
+      item.classList.add('active');
+    }
+  }
+
+  menuItems.forEach(item => {
+    item.addEventListener('click', function(event) {
+      event.preventDefault();
+      const targetId = this.getAttribute('href').substring(1);
+      const targetSection = document.getElementById(targetId);
+      if (targetSection) {
+        window.scrollTo({
+          top: targetSection.offsetTop - 50,
+          behavior: 'smooth'
+        });
+        removeActiveClass();
+        this.classList.add('active');
+      }
+    });
+  });
+
+  window.addEventListener('scroll', function() {
+    const scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
+    sections.forEach(section => {
+      if (
+        scrollPosition >= section.offsetTop - 60 &&
+        scrollPosition < section.offsetTop + section.offsetHeight - 60
+      ) {
+        const target = section.getAttribute('id');
+        removeActiveClass();
+        addActiveClass(target);
+      }
+    });
+  });
+});
+
+  </script>
+</html>
