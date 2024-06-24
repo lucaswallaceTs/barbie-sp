@@ -54,7 +54,7 @@ nav ul li a.active {
     margin: auto;
     height: 567px;
     max-width: 1440px;
-    background: url(imagens/barbie-banner-rj.svg);
+    background: url(imagens/Barbie-banner-SP.jpeg) no-repeat center center / cover;
 }
 .container-accountant{
 width: 100%;
