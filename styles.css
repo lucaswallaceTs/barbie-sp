@@ -435,7 +435,8 @@ footer{
         height: 409px;
     }
     .accountant{
-        width: 100%;
+        width: 100%;        
+        margin: 63px 16px 83px 16px;
     }
     .wrapper-encontro{
         flex-basis: 100%;
@@ -467,7 +468,7 @@ footer{
     }
     .info-percurso{
         margin: 0;
-        padding: 0px 10px 30px 10px;
+        padding: 0px 16px 30px 16px;
         display: flex;
         flex-direction: column;
         text-align: left;
@@ -494,7 +495,7 @@ footer{
     .info-kit{
         z-index: 10;
         flex-basis: 100%;
-        margin: auto 15px auto 15px;
+        margin: auto 15px auto 16px;
     }
     .image-kit{
         z-index: 1;
