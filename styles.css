@@ -430,9 +430,9 @@ footer{
     .container-inicio{
         background: url(imagens/Testeira-SP-mobile.jpg);
         width: 100%;
-        max-width: 768px;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
+        height: 409px;
     }
     .accountant{
         width: 100%;
@@ -538,9 +538,10 @@ footer{
         font-size: 60px;
     }
     .container-inicio{
-        background-size: contain;
+        width: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
-        height: 330px;
+        height: 409px;
     }
     .button-kit{
         flex-wrap: wrap;
