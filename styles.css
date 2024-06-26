@@ -3,6 +3,18 @@ body{
     margin: 0px;
     box-sizing: border-box;
 }
+.style-standard{
+    font-family: "League Gothic", sans-serif;
+    text-transform: uppercase;
+    font-size: 80px;
+    margin: 0;
+    color: #FFF;
+    text-shadow: 
+    3px 3px 0px #FE3CB7, 
+    -3px -3px 0px #FE3CB7, 
+    -3px 3px 0px #FE3CB7, 
+    3px -3px 0px #FE3CB7;
+}
 main{
     display: flex;
     flex-direction: column;
@@ -114,23 +126,13 @@ margin: 0px 0px 32px 0px;
     flex-direction: column;
     justify-content: center;
 }
-.wrapper-encontro h1{
-    font-size: 80px;    
+.wrapper-encontro h1{  
     margin: 0;
     text-align: left;
     color: white;
     line-height: 70px;
     display: inline-block;
-    text-shadow: 
-    2px 2px 0 #FE3CB7, 
-    2px -2px 0 #FE3CB7, 
-    -2px 2px 0 #FE3CB7, 
-    -2px -2px 0 #FE3CB7, 
-    2px 0px 0 #FE3CB7, 
-    0px 2px 0 #FE3CB7, 
-    -2px 0px 0 #FE3CB7, 
-    0px -2px 0 #FE3CB7, 
-    6px 6px 2px #FE3CB7;}
+}
 .wrapper-encontro p{
     font-size: 16px;
     font-weight: 400;
@@ -176,7 +178,7 @@ margin: 0px 0px 32px 0px;
 .info-percurso{
     font-family: "Inter", sans-serif;
     margin: auto auto auto 64px;
-    flex-basis: 35%;
+    flex-basis: 50%;
     color: #432638;
     font-size: 16px;
 }
@@ -246,6 +248,13 @@ margin: 0px 0px 32px 0px;
     flex-basis: 35%;
     color: #FFF;
 }
+.info-kit h1{
+    text-shadow: 
+    3px 3px 0px #DE299C, 
+    -3px -3px 0px #DE299C, 
+    -3px 3px 0px #DE299C, 
+    3px -3px 0px #DE299C;
+}
 .button-kit{
     margin: 32px 0px 0px 0px;
     display: flex;
@@ -296,6 +305,11 @@ margin: 0px 0px 32px 0px;
     top: -40px;
     left: 40px;
     font-size: 80px;
+    text-shadow: 
+    3px 3px 0px #DE299C, 
+    -3px -3px 0px #DE299C, 
+    -3px 3px 0px #DE299C, 
+    3px -3px 0px #DE299C;
 }
 .texto-regulamento{
     padding: 40px;
@@ -343,6 +357,14 @@ footer{
     flex-direction: column;
     justify-content: center;
     color: #FFF;
+}
+.wrapper-footer h1{
+    margin-top: 80px;
+    text-shadow: 
+    3px 3px 0px #DE299C, 
+    -3px -3px 0px #DE299C, 
+    -3px 3px 0px #DE299C, 
+    3px -3px 0px #DE299C;
 }
 .wrapper-footer p{
     max-width: 700px;
@@ -437,10 +459,6 @@ footer{
         width: 100%;
         display: flex;
     }
-    .title-percurso img{
-        width: 95%;
-        margin: auto;
-    }
     .title-kit{
         width: 100%;
         display: flex;
@@ -517,6 +535,9 @@ footer{
     }
 }
 @media (max-width: 425px){
+    .style-standard{
+        font-size: 60px;
+    }
     .container-inicio{
         background-size: contain;
         background-repeat: no-repeat;
