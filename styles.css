@@ -325,82 +325,7 @@ margin: 0px 0px 32px 0px;
     background: #FE3CB7;
     border-radius: 8px;
 }
-.fale-conosco{
-    padding: 0px 0px 60px 0px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.wrapper-fale-conosco{
-    width: 100%;
-    max-width: 1200px;
-    display: flex;
-    color: #FFF;
-}
-.title-fale-conosco{
-    width: 50%;
-    background-color: #FE3CB7;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 24px 0px 0px 24px;
-    position: relative;
-}
-.title-fale-conosco p{
-    max-width: 456px;
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
-}
-.background-fale-conosco{
-    position: absolute;
-    transform: rotate(270deg);
-    bottom: 0px;
-    right: 0px;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-.wrapper-form{
-    width: calc(50% - 112px);
-    padding: 60px 56px;
-    background-color: #00C2DE;
-    border-radius: 0px 24px 24px 0px;
-}
-.wrapper-form form{
-    width: 100%;
-}
-.wrapper-form form div{
-    display: flex;
-    flex-direction: column;
-    
-}
-.wrapper-form form input{
-    width: 100%;
-    height: 56px;
-    border-radius: 8px;
-    border: none;
-}
-.wrapper-form form label{
-    font-family: "Inter", sans-serif;
-    font-size: 14px;
-    margin: 16px 0px 4px 0px;
-    font-weight: 700;
-}
-.wrapper-form form button{
-    margin: 26px 0px 0px 0px;
-    color: #FE3CB7;
-    width: 223px;
-    height: 64px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 100px;
-    border: none;
-    font-family: League Gothic;
-    font-size: 30px;
-    box-shadow: 4px 4px 0px 0px #1796AA;
-}
+
 footer{
     width: 100%;
     padding: 80px 0px 0px 0px;
@@ -577,24 +502,7 @@ footer{
 .title-regulamento div h1 img{
     width: 30%;
 }
-    .wrapper-fale-conosco{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .background-fale-conosco{
-        display: none;
-    }
-    .title-fale-conosco{
-        width: 100%;
-        border-radius: 0;
-    }
-    .wrapper-form{
-        width: calc(100% - 112px);
-        border-radius: 0;
-    }
-    .wrapper-form form button{
-        margin: 26px auto auto auto;
-    }
+    
     .fale-conosco, footer{
         padding: 0;
     }
@@ -627,13 +535,5 @@ footer{
         display: flex;
         top: -40px;
         left: 0;
-        }
-        .title-fale-conosco{
-            text-align: center;
-            padding: 0px 10px;
-        }
-        .wrapper-form{
-            width: 100%;
-            padding: 30px 25px;
         }
 }
