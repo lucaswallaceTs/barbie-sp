@@ -65,7 +65,7 @@ nav ul li a.active {
     margin: auto;
     height: 567px;
     max-width: 1440px;
-    background: url(imagens/Barbie-banner-SP.jpeg) no-repeat center center / cover;
+    background: url(imagens/Capa\ sp.png) no-repeat center center / cover;
 }
 .container-accountant{
 width: 100%;
@@ -220,13 +220,16 @@ margin: 0px 0px 32px 0px;
 }
 .image-kit{
     z-index: 1;
-    width: 100%;
     margin-top: 30px;
     display: flex;
     justify-content: flex-end;
+    background-color: #FFF;
+    border-radius: 24px;
+    width: 80%;
+    max-width: 600px;
 }
 .image-kit img{
-    width: 80%;
+    width: 100%;
     max-width: 600px;
 }
 .style-barbie{
@@ -499,11 +502,11 @@ footer{
     }
     .image-kit{
         z-index: 1;
-        width: 100%;
         margin-top: 30px;
+        max-width: 450px;
     }
     .image-kit img{
-        width: 80%;
+        width: 100%;
         display: flex;
         margin: auto;    
         max-width: 450px;
